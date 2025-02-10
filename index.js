@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const cityInput = document.getElementById("cityInput");
     const button = document.getElementById("submitButton");
     const output = document.querySelector(".output");
-    const apiKey = "c991f75ae729e4ba908cc43cbc53e6a3";
+    const apiKey = "";
 
     button.addEventListener("click", async (event) => {
         event.preventDefault();
